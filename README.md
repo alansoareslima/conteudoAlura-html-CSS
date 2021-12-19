@@ -1,5 +1,5 @@
 # conteudoAlura-html-CSS
-Repositório de projetos desenvolvidos durante a formação Front-End Alura (parte de HTML e CSS, parte 1 a 5)
+Repositório de projetos desenvolvidos durante a formação Front-End Alura, parte de HTML e CSS, parte 1 (a primeira página da web), 2 (posicionamento, listas e navegação), 3 (trabalhando com formulários e tabelas) e 4(avançando no CSS).
 
 1. HTML e CSS
 
