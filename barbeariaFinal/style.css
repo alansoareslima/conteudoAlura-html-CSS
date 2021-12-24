@@ -66,11 +66,15 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 32px;
+	font-size: 30px;
+}
+
+.produtos li img {
+	width: 100%;
 }
 
 .produtos h2 {
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: bold;
 }
 
@@ -118,6 +122,13 @@ TODO PARÁGRAFO NA CLASSE PRINCIPAL QUE NÃO É ID MISSÃO
 	background: green;
 } */
 
+.principal-contato {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
 form {
 	margin: 40px 0;
 }
@@ -136,7 +147,7 @@ form label, form legend {
 }
 
 .checkbox {
-	margin: 20px 0;
+	margin: 20px 0px;
 }
 
 .enviar {
@@ -278,8 +289,26 @@ td, th {
 } 
 
 @media screen and (max-width:  480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
+	}
+
+	.produtos {
+		width: auto;	
+	}
+
+	.produtos h2, .precoProduto, .descricaoProduto {
+		font-size: 1em;
+	}
+
+	.produtos li {
+		width: 46%;
+		align-content: center;
+		margin: 5px 6px;
+	}
+
+	.produtos li:hover h2 {
+	font-size: 1.05em;
 	}
 
 	h1 {
@@ -291,6 +320,22 @@ td, th {
 	}
 
 	.lista-beneficios, .imagem-beneficios {
-		width: 100%;
+		width: 97%;
 	}
+
+.principal-contato {
+	width: 95%;	
+}
+
+	form label, form legend {
+	font-size: 1.5em;
+	margin: 10px 0 10px;
+}
+
+	.enviar {
+		font-size: 1em;
+	}
+
+
+
 }
